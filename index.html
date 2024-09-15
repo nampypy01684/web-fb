@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <link rel="stylesheet" href="./css/mainstyle.css">
+    <title>Trang chủ | VOXFootball</title>
+</head>
+
+<body>
+    <secsion class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <a href="index.html"><img src="./images/logoShop.png" alt="" height="69px" width="80px"></a>
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li>Áo CLB
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory-nha.html">Ngoại Hạng Anh</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-laliga.html">Laliga</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-seria.htm">SeriA</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-l1.html">Leuge 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Áo Đội Tuyển Quốc Gia
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory-ca.html">Châu Á</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-cau.html">Châu Âu</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.cmi.html">Châu Mĩ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Giày</li>
+                        <li>Phụ kiện
+                        <ul class="top-menu-item">
+                            <li><a href="cartegory-gloves.html">Găng tay thủ môn</a></li>
+                            <li><a href=""> Vải quấn chân</a></li>
+                            <li><a href="cartegory-socks.html">Tất chống trơn</a></li>
+                            <li><a href="">Băng keo</a></li>
+                            <li><a href="cartegory-helmet.html">Nón bảo hộ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="news.html">Tin tức</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li>
+                            <a href="login.html?showLogin=true" style="color: black;"><i class="fas fa-user"></i></a>
+                        </li>
+                        <li>
+                            <i class="fas fa-shopping-cart" onclick="directCart();"></i>
+                            <p class="cartNo">0</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </secsion>
+
+    
+
+    <!-- -----------------------------------slider----------------------- -->
+    <section class="sliders">
+        <div class="aspect-ratio-169">
+            <img src="./images/silde1.jpg" alt="">
+            <img src="./images/slide2.jpg" alt="">
+            <img src="./images/slide3.jpg" alt="">
+            <img src="./images/slide4.jpg" alt="">
+            <img src="./images/slide5.jpg" alt="">
+        </div>
+        <div class="dot-container">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+
+     <!-- -------------trình bay sản phẩm ----------------- -->
+     <div class="product-display" id="product">
+        <div class="container">
+            <h1>Sản Phẩm Mua Nhiều Nhất</h1>
+            <div class="product-table-main ">
+                <div class="product-col">
+                    <div class="product-top">
+                        <!-- -------------hình sản phẩm ----------------- -->
+                        <img src="./images/sp1.1.jpg" alt="" class="main-image" style="height: 300px; width:255px;">
+                        <img src="./images/sp1.2.jpg" alt="" class="hover-image" style="height: 300px; width:255px;">
+                    </div>
+                    <div class="details-product">
+                        <div class="name-product">
+                            <h4><strong>Bộ quần áo bóng đá CLB Arsenal Đen 2024-2025</strong></h4>
+                        </div>
+                        <div class="price-product">
+                            <h3><span> 120,000</span> VND <s>180.000 VND</s></h3>
+                            <a href="/product1.html">ĐẶT NGAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-col">
+                    <div class="product-top">
+                        <!-- -------------hình sản phẩm ----------------- -->
+                        <img src="./images/sp5.1.jpg" alt="" class="main-image" style="height: 300px; width:255px;">
+                        <img src="./images/sp5.2.jpg" alt="" class="hover-image" style="height: 300px; width:255px;">
+                    </div>
+                    <div class="details-product">
+                        <div class="name-product">
+                            <h4><strong>Bộ quần áo bóng đá CLB Arsenal Đen 2024-2025</strong></h4>
+                        </div>
+                        <div class="price-product">
+                            <h3><span> 120,000</span> VND <s>180.000 VND</s></h3>
+                            <a href="/product5.html">ĐẶT NGAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-col">
+                    <div class="product-top">
+                        <!-- -------------hình sản phẩm ----------------- -->
+                        <img src="./images/sp2.1.jpg" alt="" class="main-image" style="height: 300px; width:255px;">
+                        <img src="./images/sp2.2.jpg" alt="" class="hover-image" style="height: 300px; width:255px;">
+                    </div>
+                    <div class="details-product">
+                        <div class="name-product">
+                            <h4><strong>Bộ quần áo bóng đá CLB Arsenal Đen 2024-2025</strong></h4>
+                        </div>
+                        <div class="price-product">
+                            <h3><span> 120,000</span> VND <s>180.000 VND</s></h3>
+                            <a href="/product2.html">ĐẶT NGAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-col">
+                    <div class="product-top">
+                        <!-- -------------hình sản phẩm ----------------- -->
+                        <img src="./images/sp3.1.jpg" alt="" class="main-image" style="height: 300px; width:255px;">
+                        <img src="./images/sp3.2.jpg" alt="" class="hover-image" style="height: 300px; width:255px;">
+                    </div>
+                    <div class="details-product">
+                        <div class="name-product">
+                            <h4><strong>Bộ quần áo bóng đá CLB Arsenal Đen 2024-2025</strong></h4>
+                        </div>
+                        <div class="price-product">
+                            <h3><span> 120,000</span> VND <s>180.000 VND</s></h3>
+                            <a href="/product3.html">ĐẶT NGAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-product">
+                    <a href="cartegory-nha.html" class="all-product">Xem tất cả</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------footer----------------- -->
+    <section class="footer">
+        <div class="footer-container">
+            <p>Tải ứng dụng VOXFootball</p>
+            <div class="app-google">
+                <a href=""><img src="./images/appstore.png" alt=""></a>
+                <a href=""> <img src="./images/googleplay.png" alt=""></a>
+            </div>
+            <p>Nhận tin tức mới nhất từ VOXFootball</p>
+            <div class="input-email">
+                <input type="text" placeholder="Nhập email của bạn">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="footer-items">
+                <li><a href=""><img src="./images/dathongbao.png" alt=""></a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <div class="footer-text">
+                <h3>VOXFootball Offical</h3>
+                <b>Địa chỉ: </b>70 Tô Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh <br>
+                <b>Mail: </b>voxfootballvn@gmail.com <br>
+                <b>Đặt hàng online:</b>0981772800
+
+            </div>
+            <div class="footer-bottom">
+                ©VOXFootball All rights reserved
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="login.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <link rel="stylesheet" href="./css/mainstyle.css">
+    <title>Danh mục sản phẩm | Leauge 1</title>
+</head>
+
+<body>
+    <secsion class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <a href="index.html"><img src="./images/logoShop.png" alt="" height="70px" width="80px"></a>
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li>Áo CLB
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory-nha.html">Ngoại Hạng Anh</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-laliga.html">Laliga</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-seria.htm">SeriA</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-l1.html">Leuge 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Áo Đội Tuyển Quốc Gia
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory-ca.html">Châu Á</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-cau.html">Châu ÂU</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.cmi.html">Châu Mĩ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Giày</li>
+                        <li>Phụ kiện
+                            <ul class="top-menu-item">
+                                <li><a href="cartegory-gloves.html">Găng tay thủ môn</a></li>
+                                <li><a href=""> Vải quấn chân</a></li>
+                                <li><a href="cartegory-socks.html">Tất chống trơn</a></li>
+                                <li><a href="">Băng keo</a></li>
+                                <li><a href="cartegory-helmet.html">Nón bảo hộ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="news.html">Tin tức</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-shopping-cart" onclick="directCart();"></i>
+                            <p class="cartNo">0</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </secsion>
+    <!--------------------------------------- giỏ hàng------------------------------------- -->
+    <section class="cartegory">
+        <div class="container">
+            <div class="cartegory-top row">
+                <p>Trang chủ</p> <span>&#8594;</span>
+                <p>Áo CLB</p><span>&#8594;</span>
+                <p>Leauge 1</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="cartegory-left">
+                    <ul>
+                        <li class="cartegory-left-li"><a href="#">ÁO CLB</a>
+                            <ul>
+                                <li><a href="cartegory-nha.html">NGOẠI HẠNG ANH</a>
+                                    <ul>
+                                        <li><a href="">Manchester United</a></li>
+                                        <li><a href="">Manchester City</a></li>
+                                        <li><a href="">Arsernal</a></li>
+                                        <li><a href="">Totenham</a></li>
+                                        <li><a href="">Liverpool</a></li>
+                                        <li><a href="">Chelsea</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="cartegory-laliga.html">LALIGA</a>
+                                    <ul>
+                                        <li><a href="">Real Madrid</a></li>
+                                        <li><a href="">Barcelona</a></li>
+                                        <li><a href="">Alectico Madrid</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="cartegory-seria.htm">SERIA</a>
+                                    <ul>
+                                        <li><a href="">AC Milan</a></li>
+                                        <li><a href="">AS Roma</a></li>
+                                        <li><a href="">Juventus</a></li>
+                                        <li><a href="">Napoli</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="cartegory-l1.html">LEAUGE1</a>
+                                    <ul>
+                                        <li><a href="">PSG</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="cartegory-left-li"><a href="#">ÁO ĐỘI TUYỂN QUỐC GIA</a>
+                            <ul>
+                                <li><a href="cartegory-ca.html">CHÂU Á</a>
+                                    <ul>
+                                        <li><a href="">Việt Nam</a></li>
+                                        <li><a href="">Hàn Quốc</a></li>
+                                        <li><a href="">Nhật Bản</a></li>
+                                        <li><a href="">Trung Quốc</a></li>
+                                        <li><a href="">Thái Lan</a></li>
+                                        <li><a href="">Singapo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="cartegory-cau.html">CHÂU ÂU</a>
+                                    <ul>
+                                        <li><a href="">Pháp</a></li>
+                                        <li><a href="">Bồ Đào Nha</a></li>
+                                        <li><a href="">Tây Ban Nha</a></li>
+                                        <li><a href="">Đức</a></li>
+                                        <li><a href="">Ý</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="cartegory.cmi.html">CHÂU MĨ</a>
+                                    <ul>
+                                        <li><a href="">Argentina</a></li>
+                                        <li><a href="">Brazil</a></li>
+                                        <li><a href="">Mexico</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">GIÀY</a></li>
+                        <li class="cartegory-left-li-pk"><a href="#">PHỤ KIỆN</a>
+                            <ul>
+                                <li><a href="cartegory-gloves.html">Găng tay thủ môn</a></li>
+                                <li><a href=""> Vải quấn chân</a></li>
+                                <li><a href="cartegory-socks.html">Tất chống trơn</a></li>
+                                <li><a href="">Băng keo</a></li>
+                                <li><a href="cartegory-helmet.html">Nón bảo hộ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="news.html">TIN TỨC</a></li>
+                        <li><a href="lienhe.html">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <div class="cartegory-right">
+                    <div class="cartegory-right-top row">
+                        <div class="cartegory-right-top-item ">
+                            <p>Leauge 1</p>
+                        </div>
+                        <div class="cartegory-right-top-item">
+                            <button><span>Bộ lọc</span><i class="fas fa-sort-down"></i></button>
+                        </div>
+                        <div class="cartegory-right-top-item">
+                            <select name="" id="">
+                                <option value="">Sắp xếp</option>
+                                <option value="">Giá cao đến thấp</option>
+                                <option value="">Giá thấp đến cao</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="cartegory-right-content row">
+                        <div class="cartegory-right-content-item">
+                            <a href="product25.html"><img src="./images/sp25.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB AC Paris xanh đen 2024-2025</h1>
+                            <p>120.000 VND</p>
+                        </div>
+                        <!-- <div class="cartegory-right-content-item">
+                            <a href="product26.html"><img src="./images/sp26.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB Paris Kem 2024</h1>
+                            <p>120.000 VND</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <a href="product27.html"><img src="./images/sp27.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB Paris Trắng mùa giải 2023-2024</h1>
+                            <p>120.000 VND</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <a href="product28.html"><img src="./images/sp28.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB Paris Xanh sân nhà năm 2023</h1>
+                            <p>120.000 VND</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <a href="product29.html"><img src="./images/sp29.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB AC Paris xanh đen 2024-2025</h1>
+                            <p>120.000 VND</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <a href="product30.html"><img src="./images/sp30.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB Paris Kem 2024</h1>
+                            <p>120.000 VND</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <a href="product31.html"><img src="./images/sp31.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB Paris Trắng mùa giải 2023-2024</h1>
+                            <p>120.000 VND</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <a href="product32.html"><img src="./images/sp32.jpg" alt=""></a>
+                            <h1>Bộ quần áo bóng đá CLB Paris Xanh sân nhà năm 2023</h1>
+                            <p>120.000 VND</p>
+                        </div> -->
+                    </div>
+                    <div class="cartegory-right-bottom row">
+                        <div class="cartegory-right-bottom-items">
+                            <p>Hiện thị 2 <span>&#124;</span> 4 sản phẩm</p>
+                        </div>
+                        <div class="cartegory-right-bottom-items">
+                            <p><span>&#171;</span> 1 2 3 4 5 <span>&#187;</span> Trang cuối</p>
+                        </div>
+                    </div>
+                </div>
+               
+        </div>
+    </section>
+<!-- Footer------------------------------------ -->
+    <section class="footer">
+        <div class="footer-container">
+            <p>Tải ứng dụng VOXFootball</p>
+            <div class="app-google">
+                <a href=""><img src="./images/appstore.png" alt=""></a>
+                <a href=""> <img src="./images/googleplay.png" alt=""></a>
+            </div>
+            <p>Nhận tin tức mới nhất từ VOXFootball</p>
+            <div class="input-email">
+                <input type="text" placeholder="Nhập email của bạn">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="footer-items">
+                <li><a href=""><img src="./images/dathongbao.png" alt=""></a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <div class="footer-text">
+                <h3>VOXFootball Offical</h3>
+                <b>Địa chỉ: </b>70 Tô Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh <br>
+                <b>Mail: </b>voxfootballvn@gmail.com <br>
+                <b>Đặt hàng online:</b>0981772800
+
+            </div>
+            <div class="footer-bottom">
+                ©VOXFootball All rights reserved
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/l1.js"></script>
+
+
+</body>
+
+</html>

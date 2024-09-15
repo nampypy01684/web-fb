@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/mainstyle.css">
+    <title>Chi tiết sản phẩm | VOXFootball</title>
+</head>
+
+<body>
+    <secsion class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <a href="index.html"><img src="./images/logoShop.png" alt="" height="69px" width="80px"></a>
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li>Áo CLB
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory-nha.html">Ngoại Hạng Anh</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-laliga.html">Laliga</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-seria.htm">SeriA</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-l1.html">Leuge 1</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Áo Đội Tuyển Quốc Gia
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory-ca.html">Châu Á</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory-cau.html">Châu ÂU</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.cmi.html">Châu Mĩ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Giày</li>
+                        <li>Phụ kiện
+                            <ul class="top-menu-item">
+                                <li><a href="cartegory-gloves.html">Găng tay thủ môn</a></li>
+                                <li><a href=""> Vải quấn chân</a></li>
+                                <li><a href="cartegory-socks.html">Tất chống trơn</a></li>
+                                <li><a href="">Băng keo</a></li>
+                                <li><a href="cartegory-helmet.html">Nón bảo hộ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="news.html">Tin tức</a></li>
+                        <li><a href="lienhe.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-shopping-cart" onclick="directCart();"></i>
+                            <p class="cartNo">0</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </secsion>
+    <!-- Sản phẩm------------------- -->
+    <section class="product">
+        <div class="container">
+            <div class="product-top row">
+                <p>Trang chủ</p> <span>&#8594;</span>
+                <p>Áo CLB</p><span>&#8594;</span>
+                <p>SeriA</p>
+            </div>
+            <div class="product-content row">
+                <div class="product-content-left row">
+                    <div class="product-content-left-big-img">
+                        <img src="./images/sp24.1.jpg" alt="">
+                    </div>
+                    <div class="product-content-left-small-img">
+                        <img src="./images/sp24.1.jpg" alt="">
+                        <img src="./images/sp24.2.jpg" alt="">
+                        <img src="./images/sp24.3.jpg" alt="">
+                        <img src="./images/sp24.4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="product-content-right">
+                    <div class="product-content-right-product-name">
+                        <h1><strong>Bộ quần áo bóng đá CLB AC Milan Đỏ Sọc 2023</strong></h1>
+                    </div>
+                    <div class="product-content-right-product-price">
+                        <p><b>120.000 VND</b></p>
+                    </div>
+                    <div class="product-content-right-product-size">
+                        <p style="font-weight: bold;">Size</p>
+                        <div class="size">
+                            <button class="size-btn" data-size="S">S</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                            <button class="size-btn" data-size="XXL">XXL</button>
+                        </div>
+                    </div>
+                    <div class="quantity">
+                        <p style="font-weight: bold;">Số lượng</p>
+                        <input type="number" min="1" value="1" class="quantity-input" id="productQty">                    </div>
+                    <p style="color: red;">Vui lòng chọn size*</p>
+                    <div class="product-content-right-product-button">
+                        <button id="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>
+                            <p class="themvaogiohang" onclick="directCart();">THÊM VÀO GIỎ HÀNG</p>
+                            <p class="cartNo">0</p>
+                        </button>
+                    </div>
+                    <div class="product-content-right-product-icon">
+                        <div class="product-content-right-product-icon-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>Hotline</p>
+                        </div>
+                        <div class="product-content-right-product-icon-item">
+                            <i class="far fa-comment"></i>
+                            <p>Chat</p>
+                        </div>
+                        <div class="product-content-right-product-icon-item">
+                            <i class="far fa-envelope"></i>
+                            <p>Mail</p>
+                        </div>
+                    </div>
+                    <div class="product-content-right-product-QR">
+                        <img src="./images/qr.png" alt="" width="60px" height="60px">
+                    </div>
+                    <div class="product-content-right-bottom">
+                        <div class="product-content-right-bottom-top">
+                            &#8744;
+                        </div>
+                        <div class="product-content-right-bottom-content-big">
+                            <div class="product-content-right-bottom-content-title row">
+                                <div class="product-content-right-bottom-content-title-item chitiet">
+                                    <p><b>Chi tiết</b></p>
+
+                                </div>
+                                <div class="product-content-right-bottom-content-title-item baoquan">
+                                    <p><b>Bảo quản</b></p>
+                                </div>
+                                <div class="product-content-right-bottom-content-title-item">
+                                    <p><b>Tham khảo size</b></p>
+                                </div>
+                            </div>
+                            <div class="product-content-right-bottom-content">
+                                <div class="product-content-right-bottom-content-chitiet">
+                                    <ul>
+                                        <li>Thân áo in chuyển nhiệt đẹp</li>
+                                        <li>Chất vải thun lạnh thoáng mát, thấm hút mồ hôi, thoáng mát khi mặc</li>
+                                        <li>Thoải mái vận động với thiết kế trẻ trung năng động</li> <br> <br>
+                                    </ul>
+                                </div>
+                                <div class="product-content-right-bottom-content-baoquan">
+                                     <p><b>Giặt đúng cách:</b> <br>  </p>
+                                        <ul>
+                                            <li>Lộn trái quần áo trước khi giặt. <br></li>
+                                            <li>Giặt bằng nước lạnh, tránh dùng nước nóng. <br></li>
+                                            <li>Không giặt chung với quần áo dễ phai màu. <br></li>
+                                            <li>Hạn chế dùng xà phòng mạnh, nên dùng nước giặt chuyên dụng hoặc pha loãng xà phòng. <br> <br></li>
+                                        </ul>
+                                     
+                                       <p><b>Phơi đúng cách:</b> <br></p> 
+                                       <ul>
+                                        <li>Lộn trái khi phơi để bảo vệ màu sắc và hình in. <br></li>
+                                        <li>Phơi ở nơi thoáng gió, tránh ánh nắng trực tiếp1. <br></li>
+                                        <li>Nên phơi theo kiểu vắt qua dây hoặc dùng móc treo có bề mặt nhẵn mịn. <br> <br></li>
+                                       </ul>
+                                        
+                                      <p><b>Cất giữ:</b>  <br> </p>
+                                      <ul>
+                                        <li> Treo quần áo lên móc để tránh nhăn và giữ form dáng.<br></li>
+                                        <li>Bảo quản ở nơi khô ráo, thoáng mát để tránh nấm mốc.</li>
+                                      </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT RELATED -->
+    <section class="product-related container">
+        <div class="product-related-title">
+            <p>SẢN PHẨM LIÊN QUAN</p>
+        </div>
+        <div class=" row product-content">
+            <div class="product-related-item">
+                <img src="images/sp18.jpg" alt="">
+                <h1>Bộ quần áo bóng đá CLB AC Milan Đỏ Sọc 2024-2025</h1>
+                <p>120.000 VND <s>180.000 VND</s></p>
+            </div>
+            <div class="product-related-item">
+                <img src="images/sp19.jpg" alt="">
+                <h1>Bộ quần áo bóng đá CLB Inter Miami Hồng 2024</h1>
+                <p>120.000 VND <s>180.000 VND</s></p>
+            </div>
+            <div class="product-related-item">
+                <img src="images/sp20.jpg" alt="">
+                <h1>Bộ quần áo bóng đá CLB INTER Trắng 2024</h1>
+                <p>120.000 VND <s>180.000 VND</s></p>
+            </div>
+            <div class="product-related-item">
+                <img src="images/sp21.jpg" alt="">
+                <h1>Bộ quần áo bóng đá CLB AC Milan Hồng 2023–2024</h1>
+                <p>120.000 VND <s>180.000 VND</s></p>
+            </div>
+            <div class="product-related-item">
+                <img src="images/sp22.jpg" alt="">
+                <h1>Bộ quần áo bóng đá CLB AC Milan Trắng 2023–2024</h1>
+                <p>120.000 VND <s>180.000 VND</s></p>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer------------------------------------ -->
+    <section class="footer">
+        <div class="footer-container">
+            <p>Tải ứng dụng VOXFootball</p>
+            <div class="app-google">
+                <a href=""><img src="./images/appstore.png" alt=""></a>
+                <a href=""> <img src="./images/googleplay.png" alt=""></a>
+            </div>
+            <p>Nhận tin tức mới nhất từ VOXFootball</p>
+            <div class="input-email">
+                <input type="text" placeholder="Nhập email của bạn">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="footer-items">
+                <li><a href=""><img src="./images/dathongbao.png" alt=""></a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <div class="footer-text">
+                <h3>VOXFootball Offical</h3>
+                <b>Địa chỉ: </b>70 Tô Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh <br>
+                <b>Mail: </b>voxfootballvn@gmail.com <br>
+                <b>Đặt hàng online:</b>0981772800
+
+            </div>
+            <div class="footer-bottom">
+                ©VOXFootball All rights reserved
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+     // Lấy nút "Thêm vào giỏ hàng"
+     const addToCartButton = document.querySelector("#add-to-cart-btn");
+ 
+     addToCartButton.addEventListener("click", function() {
+         // Lấy thông tin sản phẩm
+         const quantityInput = document.querySelector(".quantity-input");
+         const sizeButton = document.querySelector(".size-btn.selected");
+         
+         if (!sizeButton) {
+             alert("Vui lòng chọn size!");
+             return;
+         }
+ 
+         const product = {
+             sp: {
+                 hinh: "images/sp24.jpg",
+                 ten: "Bộ quần áo bóng đá CLB AC Milan Đỏ Sọc 2023",
+                 gia: "120.000 VND"
+             },
+             qty: parseInt(quantityInput.value),
+             size: sizeButton.getAttribute("data-size")
+         };
+ 
+         // Lấy giỏ hàng từ localStorage
+         let cart = JSON.parse(localStorage.getItem("myCart")) || [];
+ 
+         // Thêm sản phẩm vào giỏ hàng
+         cart.push(product);
+ 
+         // Lưu giỏ hàng vào localStorage
+         localStorage.setItem("myCart", JSON.stringify(cart));
+ 
+         // Cập nhật số lượng sản phẩm trong giỏ hàng
+         let totalQty = (parseInt(localStorage.getItem("totalQty")) || 0) + product.qty;
+         localStorage.setItem("totalQty", totalQty);
+ 
+         // Cập nhật số lượng giỏ hàng trên trang
+         document.querySelector(".cartNo").textContent = totalQty;
+ 
+         // Thông báo thành công
+         alert("Sản phẩm đã được thêm vào giỏ hàng!");
+     });
+ });
+ 
+ document.addEventListener("DOMContentLoaded", function () {
+     const sizeButtons = document.querySelectorAll('.size-btn');
+ 
+     sizeButtons.forEach(button => {
+         button.addEventListener('click', function () {
+             sizeButtons.forEach(btn => btn.classList.remove('selected'));
+             this.classList.add('selected');
+         });
+     });
+ });
+     </script>
+
+</body>
+
+</html>

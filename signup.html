@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="wapper">
+        <div class="wapper-heading">
+            <h1>Đăng ký</h1>
+        </div>
+        <form onsubmit="signup()">
+            <div class="input_field">
+                <input type="text" id="username" placeholder="Tên đăng nhập">
+            </div>
+
+            <div class="input_field">
+                <input type="text" id="email" placeholder="Email">
+            </div>
+
+            <div class="input_field">
+                <input type="password" id="password" placeholder="Mật khẩu">
+            </div>
+
+            <div class="input_field">
+                <input type="password" id="password" placeholder="Xác nhận mật khẩu">
+            </div>
+            <a href="login.html" class="login-link">Đăng nhập</a>
+            <button id="btnSignup" class="btn">Đăng ký</button>
+        </form>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>
